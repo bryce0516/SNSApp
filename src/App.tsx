@@ -8,7 +8,8 @@
 
 import React from 'react';
 import Styled from 'styled-components'
-
+import {StatusBar} from 'react-native'
+import Navigator from ''
 interface Props {
 
 }

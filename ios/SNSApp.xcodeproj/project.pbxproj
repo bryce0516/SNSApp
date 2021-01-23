@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SNSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SNSAppTests.m */; };
+		011CC72EA8082F308DF4A834 /* libPods-SNSApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC855E200CD4A61DC6B59DB /* libPods-SNSApp-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -15,11 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SNSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SNSAppTests.m */; };
-		5CAD74229B60E68BA0F2BCC8 /* libPods-SNSApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DADDA17AA9E5BACDA9C0E9 /* libPods-SNSApp-tvOS.a */; };
-		6B60E218A3D25822239DDA88 /* libPods-SNSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B79748705C7E26FA57521C29 /* libPods-SNSApp.a */; };
+		7940AF0ED25E4A2B839FB32C /* libPods-SNSApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B59474BDC840EE4953591796 /* libPods-SNSApp-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E2895D00480E029665B8A789 /* libPods-SNSApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B76D9D13CE3AE9EA6CD624A3 /* libPods-SNSApp-tvOSTests.a */; };
-		EAC90DFFC9831854C7A11756 /* libPods-SNSApp-SNSAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FA01F570290A6761335B8C /* libPods-SNSApp-SNSAppTests.a */; };
+		8430BFA525BBDDEC005E2B0F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430BFA425BBDDEC005E2B0F /* Launch Screen.storyboard */; };
+		C6006E6E647DC422CC7547C6 /* libPods-SNSApp-SNSAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E674109B465CD9BF67B336FD /* libPods-SNSApp-SNSAppTests.a */; };
+		DF58C536162CDB55956D69FE /* libPods-SNSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3B46163779DE233F37D223 /* libPods-SNSApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,23 +51,24 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SNSApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SNSApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SNSApp/main.m; sourceTree = "<group>"; };
-		24FA01F570290A6761335B8C /* libPods-SNSApp-SNSAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp-SNSAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* SNSApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNSApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SNSApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNSApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32936076158150D1D0AED2EB /* Pods-SNSApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOS/Pods-SNSApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3C2AE793465ECB1CB18B44DA /* Pods-SNSApp-SNSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-SNSAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5213AE7F323838B12F7D8B07 /* Pods-SNSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp.release.xcconfig"; path = "Target Support Files/Pods-SNSApp/Pods-SNSApp.release.xcconfig"; sourceTree = "<group>"; };
+		634BE3EF9A8933D60EA7D565 /* Pods-SNSApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOSTests/Pods-SNSApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SNSApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B76D9D13CE3AE9EA6CD624A3 /* libPods-SNSApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B79748705C7E26FA57521C29 /* libPods-SNSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAEB67A05A65B71759C744F8 /* Pods-SNSApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOSTests/Pods-SNSApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C5DADDA17AA9E5BACDA9C0E9 /* libPods-SNSApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C77848BA485DB78B98D589F2 /* Pods-SNSApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOSTests/Pods-SNSApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		C7A541A8DFCF7CBFAA14A4E7 /* Pods-SNSApp-SNSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-SNSAppTests.release.xcconfig"; path = "Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		C9E17285CDEB7CCBDC141026 /* Pods-SNSApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOS/Pods-SNSApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E91B615A7F877A5864CB9AE7 /* Pods-SNSApp-SNSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-SNSAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8430BFA425BBDDEC005E2B0F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B59474BDC840EE4953591796 /* libPods-SNSApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1349594CC701A65606F1B8E /* Pods-SNSApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOS/Pods-SNSApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CA3B46163779DE233F37D223 /* libPods-SNSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC30DD26AA14790F9294F9C1 /* Pods-SNSApp-SNSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-SNSAppTests.release.xcconfig"; path = "Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0C8E68D3F01312BE1EB190A /* Pods-SNSApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOSTests/Pods-SNSApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E26E8E2270C1DABC721BDD6A /* Pods-SNSApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SNSApp-tvOS/Pods-SNSApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E674109B465CD9BF67B336FD /* libPods-SNSApp-SNSAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp-SNSAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E743191558E8CFDAE0EAAE24 /* Pods-SNSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp/Pods-SNSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC855E200CD4A61DC6B59DB /* libPods-SNSApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE0596ABDE4084BA7C0DF24F /* Pods-SNSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp.debug.xcconfig"; path = "Target Support Files/Pods-SNSApp/Pods-SNSApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FBA281F7241F7BEB5230378F /* Pods-SNSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSApp.release.xcconfig"; path = "Target Support Files/Pods-SNSApp/Pods-SNSApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC90DFFC9831854C7A11756 /* libPods-SNSApp-SNSAppTests.a in Frameworks */,
+				C6006E6E647DC422CC7547C6 /* libPods-SNSApp-SNSAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B60E218A3D25822239DDA88 /* libPods-SNSApp.a in Frameworks */,
+				DF58C536162CDB55956D69FE /* libPods-SNSApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CAD74229B60E68BA0F2BCC8 /* libPods-SNSApp-tvOS.a in Frameworks */,
+				7940AF0ED25E4A2B839FB32C /* libPods-SNSApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2895D00480E029665B8A789 /* libPods-SNSApp-tvOSTests.a in Frameworks */,
+				011CC72EA8082F308DF4A834 /* libPods-SNSApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,16 +127,15 @@
 		05079B8A408F26F04ECDE1F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EE0596ABDE4084BA7C0DF24F /* Pods-SNSApp.debug.xcconfig */,
-				FBA281F7241F7BEB5230378F /* Pods-SNSApp.release.xcconfig */,
-				E91B615A7F877A5864CB9AE7 /* Pods-SNSApp-SNSAppTests.debug.xcconfig */,
-				C7A541A8DFCF7CBFAA14A4E7 /* Pods-SNSApp-SNSAppTests.release.xcconfig */,
-				C9E17285CDEB7CCBDC141026 /* Pods-SNSApp-tvOS.debug.xcconfig */,
-				32936076158150D1D0AED2EB /* Pods-SNSApp-tvOS.release.xcconfig */,
-				BAEB67A05A65B71759C744F8 /* Pods-SNSApp-tvOSTests.debug.xcconfig */,
-				C77848BA485DB78B98D589F2 /* Pods-SNSApp-tvOSTests.release.xcconfig */,
+				E743191558E8CFDAE0EAAE24 /* Pods-SNSApp.debug.xcconfig */,
+				5213AE7F323838B12F7D8B07 /* Pods-SNSApp.release.xcconfig */,
+				3C2AE793465ECB1CB18B44DA /* Pods-SNSApp-SNSAppTests.debug.xcconfig */,
+				CC30DD26AA14790F9294F9C1 /* Pods-SNSApp-SNSAppTests.release.xcconfig */,
+				C1349594CC701A65606F1B8E /* Pods-SNSApp-tvOS.debug.xcconfig */,
+				E26E8E2270C1DABC721BDD6A /* Pods-SNSApp-tvOS.release.xcconfig */,
+				D0C8E68D3F01312BE1EB190A /* Pods-SNSApp-tvOSTests.debug.xcconfig */,
+				634BE3EF9A8933D60EA7D565 /* Pods-SNSApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,6 +149,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				8430BFA425BBDDEC005E2B0F /* Launch Screen.storyboard */,
 			);
 			name = SNSApp;
 			sourceTree = "<group>";
@@ -157,10 +159,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B79748705C7E26FA57521C29 /* libPods-SNSApp.a */,
-				24FA01F570290A6761335B8C /* libPods-SNSApp-SNSAppTests.a */,
-				C5DADDA17AA9E5BACDA9C0E9 /* libPods-SNSApp-tvOS.a */,
-				B76D9D13CE3AE9EA6CD624A3 /* libPods-SNSApp-tvOSTests.a */,
+				CA3B46163779DE233F37D223 /* libPods-SNSApp.a */,
+				E674109B465CD9BF67B336FD /* libPods-SNSApp-SNSAppTests.a */,
+				B59474BDC840EE4953591796 /* libPods-SNSApp-tvOS.a */,
+				ECC855E200CD4A61DC6B59DB /* libPods-SNSApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,11 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SNSAppTests" */;
 			buildPhases = (
-				F8BC118FDA43728E0105D5F9 /* [CP] Check Pods Manifest.lock */,
+				990EC252914421C1DAD05FB7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				8AE2F7200546D0EE0BF8BC8A /* [CP] Copy Pods Resources */,
+				4358D373168AE9EEC5A2E9E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +227,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SNSApp" */;
 			buildPhases = (
-				8EF16ABE1337C570791D67E5 /* [CP] Check Pods Manifest.lock */,
+				C7D02D6097AB00ABA37BA02D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				75E3ACEBA2CE10AB681B7034 /* [CP] Copy Pods Resources */,
+				E6D202032E3B27844CB2EFC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SNSApp-tvOS" */;
 			buildPhases = (
-				EB11A8F6940303400FF53210 /* [CP] Check Pods Manifest.lock */,
+				0726B4C1DF20FBA2A924EFBA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SNSApp-tvOSTests" */;
 			buildPhases = (
-				AB46C669465D2E771C1B77B2 /* [CP] Check Pods Manifest.lock */,
+				D595C8DC1B31FB4A4E29DBE8 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -340,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8430BFA525BBDDEC005E2B0F /* Launch Screen.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -377,101 +380,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		75E3ACEBA2CE10AB681B7034 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SNSApp/Pods-SNSApp-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNSApp/Pods-SNSApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AE2F7200546D0EE0BF8BC8A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8EF16ABE1337C570791D67E5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SNSApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB46C669465D2E771C1B77B2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SNSApp-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB11A8F6940303400FF53210 /* [CP] Check Pods Manifest.lock */ = {
+		0726B4C1DF20FBA2A924EFBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,7 +402,39 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8BC118FDA43728E0105D5F9 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4358D373168AE9EEC5A2E9E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNSApp-SNSAppTests/Pods-SNSApp-SNSAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990EC252914421C1DAD05FB7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,6 +454,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D02D6097AB00ABA37BA02D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D595C8DC1B31FB4A4E29DBE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNSApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D202032E3B27844CB2EFC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNSApp/Pods-SNSApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNSApp/Pods-SNSApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -608,7 +611,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91B615A7F877A5864CB9AE7 /* Pods-SNSApp-SNSAppTests.debug.xcconfig */;
+			baseConfigurationReference = 3C2AE793465ECB1CB18B44DA /* Pods-SNSApp-SNSAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +634,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7A541A8DFCF7CBFAA14A4E7 /* Pods-SNSApp-SNSAppTests.release.xcconfig */;
+			baseConfigurationReference = CC30DD26AA14790F9294F9C1 /* Pods-SNSApp-SNSAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +654,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE0596ABDE4084BA7C0DF24F /* Pods-SNSApp.debug.xcconfig */;
+			baseConfigurationReference = E743191558E8CFDAE0EAAE24 /* Pods-SNSApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +677,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA281F7241F7BEB5230378F /* Pods-SNSApp.release.xcconfig */;
+			baseConfigurationReference = 5213AE7F323838B12F7D8B07 /* Pods-SNSApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +698,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E17285CDEB7CCBDC141026 /* Pods-SNSApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C1349594CC701A65606F1B8E /* Pods-SNSApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +726,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32936076158150D1D0AED2EB /* Pods-SNSApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = E26E8E2270C1DABC721BDD6A /* Pods-SNSApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +754,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAEB67A05A65B71759C744F8 /* Pods-SNSApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = D0C8E68D3F01312BE1EB190A /* Pods-SNSApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +781,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C77848BA485DB78B98D589F2 /* Pods-SNSApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 634BE3EF9A8933D60EA7D565 /* Pods-SNSApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
