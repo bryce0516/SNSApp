@@ -9,7 +9,9 @@
 import React from 'react';
 import Styled from 'styled-components'
 import {StatusBar} from 'react-native'
-import Navigator from ''
+import Navigator from '~/Navigator'
+import {UserContextProvider} from '~/Context/User'
+import {RandomUserDataProvider} from '~/Context/RandomUserData'
 interface Props {
 
 }
@@ -17,6 +19,12 @@ interface Props {
 const App = ({ }: Props) => {
   return (
     <>
+    <RandomUserDataProvider cache={true}>
+      <UserContextProvider>
+        <StatusBar />
+        <Navigator />
+      </UserContextProvider>
+    </RandomUserDataProvider>
     </>
   );
 };
