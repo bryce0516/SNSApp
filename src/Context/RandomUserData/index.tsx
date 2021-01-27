@@ -149,11 +149,6 @@ const RandomUserDataProvider = ({cache, children}:Props) =>  {
       ( <Loading />)}
     </RandomUserDataContext.Provider>
   )
-
-  
-
-  export {RandomUserDataProvider, RandomUserDataContext};
-
-
   
 }
+export {RandomUserDataProvider, RandomUserDataContext};
