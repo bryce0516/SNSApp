@@ -23,8 +23,10 @@ const Upload = () => {
         }, 2000)
       }}
       onEndReached={() => {
-        setFeedList([...feedList, ...getMyFeed()])
+        setFeedList([...feedList, ...getMyFeed(24)])
       }}
     />
   )
 }
+
+export default Upload
