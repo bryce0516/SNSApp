@@ -9,7 +9,7 @@
 import React from 'react';
 import Styled from 'styled-components'
 import {StatusBar} from 'react-native'
-import Navigator from '~/Navigator'
+import Navigator from '~/Screens/Navigator'
 import {UserContextProvider} from '~/Context/User'
 import {RandomUserDataProvider} from '~/Context/RandomUserData'
 interface Props {
